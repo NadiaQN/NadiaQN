@@ -1,0 +1,15 @@
+@mixin tab-style{
+    display: inline-block;
+    padding: 0.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: none;
+    background-color: $background_color;
+    font-size: 1.5em;
+}
+@mixin ejemplo{
+    width: 15em;
+    height: 15em;
+    background-color: $background_color;  
+    margin-top: 5em;
+}

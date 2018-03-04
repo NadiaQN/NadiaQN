@@ -1,0 +1,44 @@
+body{
+    margin: 0 auto;
+    color: #fff;
+    header{ 
+        .fix-margin{
+            margin-bottom: 0.1em;;
+        }
+        background-color: $background_color;
+        .fix-margin .fix-padding {
+        padding: 0;
+            .color-nav{
+                background-color: $background_color;
+            }
+        }
+    }
+    .tab-background{
+        background-color: $background_color;
+        .tabs {
+            background-color: $background_color;
+            button {
+                @include tab-style();
+            }
+            .tabs-item:hover, .tabs-item:focus{
+                background-color: $color_focus;
+                color: #000;
+            }
+        }
+    }
+    .content{
+        color: #000;
+        .example {
+            @include ejemplo();
+        }
+        .example:hover{
+            background-color: rgba(0, 0, 0, 0.4)
+        }
+        #tools{
+            img{
+                height: 10  em;
+            }
+        }
+    }
+    
+}
