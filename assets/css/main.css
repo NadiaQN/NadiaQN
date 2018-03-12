@@ -6837,9 +6837,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 body {
   margin: 0 auto;
-  color: #fff; }
+  background-image: url("../img/background.jpg");
+  background-size: cover; }
   body header {
     background-color: #6a1b9a; }
+    @media screen and (max-width: 480px) {
+      body header .my-name {
+        font-size: 1.4em; } }
     body header .fix-margin {
       margin-bottom: 0.1em; }
     body header .fix-margin .fix-padding {
@@ -6870,7 +6874,15 @@ body {
       margin-top: 5em; }
     body .content .example:hover {
       background-color: rgba(0, 0, 0, 0.4); }
-    body .content #tools img {
-      height: 10  em; }
+    body .content #about-me {
+      margin-top: 20%; }
+      body .content #about-me h5 {
+        font-weight: bold; }
+      body .content #about-me p {
+        font-size: 1.3em; }
+    body .content #tools {
+      margin-top: 15%; }
+      body .content #tools img {
+        height: 10em; }
 
 /*# sourceMappingURL=main.css.map */

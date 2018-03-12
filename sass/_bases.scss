@@ -1,7 +1,13 @@
 body{
     margin: 0 auto;
-    color: #fff;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
     header{ 
+        .my-name{
+            @media screen and (max-width: $screen_small){
+                font-size: 1.4em;
+            }
+        }
         .fix-margin{
             margin-bottom: 0.1em;;
         }
@@ -34,10 +40,24 @@ body{
         .example:hover{
             background-color: rgba(0, 0, 0, 0.4)
         }
-        #tools{
-            img{
-                height: 10  em;
+        #about-me{
+            margin-top: 20%;
+            h5{
+                font-weight: bold;
             }
+            p{
+                font-size: 1.3em;
+            }
+        }
+        #tools{
+            margin-top: 15%;
+            img{
+                
+                height: 10em;
+            }
+        }
+        #contact-me{
+            
         }
     }
     
