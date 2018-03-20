@@ -4,6 +4,10 @@ body{
     background-size: cover;
     header{ 
         .my-name{
+            img{
+                height: 1em;
+                margin-top: 1.2%;
+            }
             @media screen and (max-width: $screen_small){
                 font-size: 1.4em;
             }
@@ -11,39 +15,30 @@ body{
         .fix-margin{
             margin-bottom: 0.1em;;
         }
-        background-color: $background_color;
         .fix-margin .fix-padding {
         padding: 0;
-            .color-nav{
-                background-color: $background_color;
-            }
-        }
-    }
-    .tab-background{
-        background-color: $background_color;
-        .tabs {
-            background-color: $background_color;
-            button {
-                @include tab-style();
-            }
-            .tabs-item:hover, .tabs-item:focus{
-                background-color: $color_focus;
-                color: #000;
-            }
         }
     }
     .content{
-        color: #000;
-        .example {
-            @include ejemplo();
-        }
-        .example:hover{
-            background-color: rgba(0, 0, 0, 0.4)
+        #portfolio{
+            margin-top: 15%;
+            @include background-section;
+            .color-action a{
+                color: #000;
+            }
         }
         #about-me{
             margin-top: 20%;
+            clear: both;
+            @include background-section;
             h5{
                 font-weight: bold;
+            }
+            img{
+                float: left;
+                border-radius: 50%;
+                width: 12em;
+                margin: 5%;
             }
             p{
                 font-size: 1.3em;
@@ -51,13 +46,26 @@ body{
         }
         #tools{
             margin-top: 15%;
+            @include background-section;
             img{
-                
-                height: 10em;
+                height: 11em;
+                max-width: 21em;
             }
         }
         #contact-me{
-            
+            margin-top: 15%;
+            @include background-section;
+            li{
+                margin: 5%;
+                font-size: 1.8em;
+                a {
+                    color: #000;
+                 }
+                a:hover{
+                    color: #4db6ac;
+                }
+            }
+           
         }
     }
     

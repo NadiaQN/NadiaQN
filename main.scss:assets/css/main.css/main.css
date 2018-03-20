@@ -6839,57 +6839,50 @@ body {
   margin: 0 auto;
   background-image: url("../img/background.jpg");
   background-size: cover; }
-  body header .my-name img {
-    height: 1em;
-    margin-top: 1.2%; }
-  @media screen and (max-width: 480px) {
-    body header .my-name {
-      font-size: 1.4em; } }
-  body header .fix-margin {
-    margin-bottom: 0.1em; }
-  body header .fix-margin .fix-padding {
-    padding: 0; }
-  body .content #portfolio {
-    margin-top: 15%;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #portfolio .color-action a {
-      color: #000; }
-  body .content #about-me {
-    margin-top: 20%;
-    clear: both;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #about-me h5 {
-      font-weight: bold; }
-    body .content #about-me img {
-      float: left;
-      border-radius: 50%;
-      width: 12em;
-      margin: 5%; }
-    body .content #about-me p {
-      font-size: 1.3em; }
-  body .content #tools {
-    margin-top: 15%;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #tools img {
-      height: 11em;
-      max-width: 21em; }
-  body .content #contact-me {
-    margin-top: 15%;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #contact-me li {
-      margin: 5%;
-      font-size: 1.8em; }
-      body .content #contact-me li a {
+  body header {
+    background-color: #6a1b9a; }
+    @media screen and (max-width: 480px) {
+      body header .my-name {
+        font-size: 1.4em; } }
+    body header .fix-margin {
+      margin-bottom: 0.1em; }
+    body header .fix-margin .fix-padding {
+      padding: 0; }
+      body header .fix-margin .fix-padding .color-nav {
+        background-color: #6a1b9a; }
+  body .tab-background {
+    background-color: #6a1b9a; }
+    body .tab-background .tabs {
+      background-color: #6a1b9a; }
+      body .tab-background .tabs button {
+        display: inline-block;
+        padding: 0.3em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: none;
+        background-color: #6a1b9a;
+        font-size: 1.5em; }
+      body .tab-background .tabs .tabs-item:hover, body .tab-background .tabs .tabs-item:focus {
+        background-color: #ce93d8;
         color: #000; }
-      body .content #contact-me li a:hover {
-        color: #4db6ac; }
+  body .content {
+    color: #000; }
+    body .content .example {
+      width: 15em;
+      height: 15em;
+      background-color: #6a1b9a;
+      margin-top: 5em; }
+    body .content .example:hover {
+      background-color: rgba(0, 0, 0, 0.4); }
+    body .content #about-me {
+      margin-top: 20%; }
+      body .content #about-me h5 {
+        font-weight: bold; }
+      body .content #about-me p {
+        font-size: 1.3em; }
+    body .content #tools {
+      margin-top: 10%; }
+    body .content #contact-me {
+      margin-top: 15%; }
 
 /*# sourceMappingURL=main.css.map */
