@@ -22,14 +22,14 @@ body{
     }
     .content{
         #portfolio{
-            margin-top: 15%;
+            margin-top: 13%;
             @include background-section;
             .color-action a{
                 color: #000;
             }
         }
         #about-me{
-            margin-top: 20%;
+            margin-top: 13%;
             clear: both;
             @include background-section;
             h5{
@@ -46,7 +46,7 @@ body{
             }
         }
         #tools{
-            margin-top: 15%;
+            margin-top: 13%;
             @include background-section;
             img{
                 height: 11em;
@@ -54,7 +54,7 @@ body{
             }
         }
         #contact-me{
-            margin-top: 15%;
+            margin-top: 13%;
             @include background-section;
             li{
                 margin: 5%;
