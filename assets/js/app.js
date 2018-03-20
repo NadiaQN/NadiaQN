@@ -5,22 +5,22 @@ $(document).ready(function() {
 
   $('.btn-portfolio').click(function() {
     $('.info').hide();
-    $('#portfolio').show();
+    $('#portfolio').fadeIn(1000);
   });
 
   $('.btn-about').click(function() {
     $('.info').hide();
-    $('#about-me').show();
+    $('#about-me').fadeIn(1000);
   });
 
   $('.btn-tools').click(function() {
     $('.info').hide();
-    $('#tools').show();
+    $('#tools').fadeIn(1000);
   });
 
   $('.btn-contact').click(function() {
     $('.info').hide();
-    $('#contact-me').show();
+    $('#contact-me').fadeIn(1000);
   });
 });
 
