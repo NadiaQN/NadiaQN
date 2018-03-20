@@ -6838,7 +6838,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 body {
   margin: 0 auto;
   background-image: url("../img/background.jpg");
-  background-size: cover; }
+  background-size: cover;
+  font-family: 'IBM Plex Serif', serif; }
   body header .my-name img {
     height: 1em;
     margin-top: 1.2%; }
