@@ -1,17 +1,26 @@
 body{
     margin: 0 auto;
-    background-image: url('../img/background.jpg');
-    background-size: cover;
-    font-family: 'IBM Plex Serif', serif;
+    background-color: #E0F8EC;
+    font-family: 'Ubuntu',sans-serif;
     header{ 
         .my-name{
+            font-size: 2em;
             img{
                 height: 1em;
-                margin-top: 1.2%;
+                margin-right: 35%;
+                margin-left: 0.7%;
+                padding: 0.1em;
             }
             @media screen and (max-width: $screen_small){
                 font-size: 1.4em;
+                img {
+                    margin-right: 1%;
+                }
+                
             }
+        }
+        .color-side{
+            background-color: #E0F8EC;
         }
         .fix-margin{
             margin-bottom: 0.1em;;
@@ -22,16 +31,23 @@ body{
     }
     .content{
         #portfolio{
-            margin-top: 13%;
-            @include background-section;
-            .color-action a{
-                color: #000;
+            margin-top: 11%;
+            .works{
+                background-color: #00796b;
+                color: #fff;
+                padding: 2%;
+                margin: 2%;
+            }
+            a {
+                margin: 1%;
+            }
+            img {
+                width: 40em;
             }
         }
         #about-me{
             margin-top: 13%;
             clear: both;
-            @include background-section;
             h5{
                 font-weight: bold;
             }
@@ -47,24 +63,29 @@ body{
         }
         #tools{
             margin-top: 13%;
-            @include background-section;
-            img{
-                height: 11em;
-                max-width: 21em;
+            .icon{
+                margin-bottom: 4%;
+            }
+            i{
+                font-size: 10em;
             }
         }
         #contact-me{
-            margin-top: 13%;
-            @include background-section;
-            li{
-                margin: 5%;
-                font-size: 1.8em;
-                a {
-                    color: #000;
-                 }
-                a:hover{
-                    color: #4db6ac;
-                }
+            margin-top: 11%;
+            h5 {
+                margin-bottom: 7%;
+            }
+            .mail, .fas {
+                font-size: 1.5em;
+                margin: 2%;
+            }
+            i {
+                font-size: 5em;
+                color: #00796b;
+                margin: 2%;
+            }
+            a{
+                color: #00796b;
             }
            
         }

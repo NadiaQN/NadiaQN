@@ -6837,32 +6837,40 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 body {
   margin: 0 auto;
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  font-family: 'IBM Plex Serif', serif; }
-  body header .my-name img {
-    height: 1em;
-    margin-top: 1.2%; }
-  @media screen and (max-width: 480px) {
-    body header .my-name {
-      font-size: 1.4em; } }
+  background-color: #E0F8EC;
+  font-family: 'Ubuntu',sans-serif; }
+  body header .my-name {
+    font-size: 2em; }
+    body header .my-name img {
+      height: 1em;
+      margin-right: 35%;
+      margin-left: 0.7%;
+      padding: 0.1em; }
+    @media screen and (max-width: 500px) {
+      body header .my-name {
+        font-size: 1.4em; }
+        body header .my-name img {
+          margin-right: 1%; } }
+  body header .color-side {
+    background-color: #E0F8EC; }
   body header .fix-margin {
     margin-bottom: 0.1em; }
   body header .fix-margin .fix-padding {
     padding: 0; }
   body .content #portfolio {
-    margin-top: 13%;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #portfolio .color-action a {
-      color: #000; }
+    margin-top: 11%; }
+    body .content #portfolio .works {
+      background-color: #00796b;
+      color: #fff;
+      padding: 2%;
+      margin: 2%; }
+    body .content #portfolio a {
+      margin: 1%; }
+    body .content #portfolio img {
+      width: 40em; }
   body .content #about-me {
     margin-top: 13%;
-    clear: both;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
+    clear: both; }
     body .content #about-me h5 {
       font-weight: bold; }
     body .content #about-me img {
@@ -6873,24 +6881,23 @@ body {
     body .content #about-me p {
       font-size: 1.3em; }
   body .content #tools {
-    margin-top: 13%;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #tools img {
-      height: 11em;
-      max-width: 21em; }
+    margin-top: 13%; }
+    body .content #tools .icon {
+      margin-bottom: 4%; }
+    body .content #tools i {
+      font-size: 10em; }
   body .content #contact-me {
-    margin-top: 13%;
-    background-color: rgba(250, 250, 250, 0.7);
-    border-radius: 0.5em;
-    padding: 1.5%; }
-    body .content #contact-me li {
-      margin: 5%;
-      font-size: 1.8em; }
-      body .content #contact-me li a {
-        color: #000; }
-      body .content #contact-me li a:hover {
-        color: #4db6ac; }
+    margin-top: 11%; }
+    body .content #contact-me h5 {
+      margin-bottom: 7%; }
+    body .content #contact-me .mail, body .content #contact-me .fas {
+      font-size: 1.5em;
+      margin: 2%; }
+    body .content #contact-me i {
+      font-size: 5em;
+      color: #00796b;
+      margin: 2%; }
+    body .content #contact-me a {
+      color: #00796b; }
 
 /*# sourceMappingURL=main.css.map */
